@@ -4,7 +4,7 @@ import XIcon from './icons/XIcon.vue'
 </script>
 
 <template>
-  <div class="social-links">
+  <div class="flex items-center gap-4">
     <a href="https://x.com/shade4827" target="_blank" rel="noopener noreferrer">
       <XIcon size="24" />
     </a>
@@ -13,11 +13,3 @@ import XIcon from './icons/XIcon.vue'
     </a>
   </div>
 </template>
-
-<style scoped>
-.social-links {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-</style>
