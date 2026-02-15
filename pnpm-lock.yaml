@@ -11,6 +11,9 @@ importers:
       vue:
         specifier: ^3.5.27
         version: 3.5.28(typescript@5.9.3)
+      vue-material-design-icons:
+        specifier: ^5.3.1
+        version: 5.3.1
     devDependencies:
       '@tsconfig/node24':
         specifier: ^24.0.4
@@ -1621,6 +1624,9 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
 
+  vue-material-design-icons@5.3.1:
+    resolution: {integrity: sha512-6UNEyhlTzlCeT8ZeX5WbpUGFTTPSbOoTQeoASTv7X4Ylh0pe8vltj+36VMK56KM0gG8EQVoMK/Qw/6evalg8lA==}
+
   vue-tsc@3.2.4:
     resolution: {integrity: sha512-xj3YCvSLNDKt1iF9OcImWHhmYcihVu9p4b9s4PGR/qp6yhW+tZJaypGxHScRyOrdnHvaOeF+YkZOdKwbgGvp5g==}
     hasBin: true
@@ -3154,6 +3160,8 @@ snapshots:
       semver: 7.7.4
     transitivePeerDependencies:
       - supports-color
+
+  vue-material-design-icons@5.3.1: {}
 
   vue-tsc@3.2.4(typescript@5.9.3):
     dependencies:
