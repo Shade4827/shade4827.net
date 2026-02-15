@@ -28,9 +28,22 @@
 
     <p class="mt-4 text-sm text-white">
       このサイトは
-      <a href="https://ja.vuejs.org/" target="_blank" rel="noopener noreferrer" class="underline dotted"> Vue.js </a>
+      <a
+        href="https://ja.vuejs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="underline dotted"
+      >
+        Vue.js
+      </a>
       を利用して作成しています
-      <a href="https://github.com/Shade4827/portfolio" rel="noopener noreferrer" class="underline dotted"> GitHub</a>
+      <a
+        href="https://github.com/Shade4827/portfolio"
+        rel="noopener noreferrer"
+        class="underline dotted"
+      >
+        GitHub</a
+      >
     </p>
   </section>
 </template>
