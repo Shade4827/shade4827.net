@@ -2,6 +2,7 @@
 import BriefcaseIcon from 'vue-material-design-icons/Briefcase.vue'
 import HeartIcon from 'vue-material-design-icons/Heart.vue'
 import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue'
+import SocialLink from './SocialLink.vue'
 </script>
 
 <template>
@@ -18,8 +19,17 @@ import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue'
           <span class="icon"><MapMarkerIcon /></span>日本, 北海道
         </p>
         <p class="description">
-          <span class="icon"><HeartIcon /></span>カードゲーム(遊戯王, Magic: The Gathering), コミュニティ活動
+          <span class="icon"><HeartIcon /></span>カードゲーム(<a
+            href="https://www.yugioh-card.com/japan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >遊戯王</a
+          >,
+          <a href="https://mtg-jp.com/" target="_blank" rel="noopener noreferrer"
+            >マジック：ザ・ギャザリング</a
+          >), コミュニティ活動
         </p>
+        <SocialLink class="social-link" />
       </div>
     </div>
   </section>
@@ -73,6 +83,10 @@ import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue'
   display: inline-flex;
   vertical-align: middle;
   margin-right: 0.5rem;
+}
+.social-link {
+  margin-top: 1rem;
+  margin-left: auto;
 }
 
 @media (min-width: 640px) {

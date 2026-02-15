@@ -11,3 +11,10 @@ h1,
 p {
   color: #fff;
 }
+
+a {
+  color: #fff;
+  text-decoration: underline dotted;
+  text-decoration-color: currentColor;
+  text-underline-offset: 2px;
+}
