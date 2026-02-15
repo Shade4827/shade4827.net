@@ -6,7 +6,7 @@ import SocialLink from './SocialLink.vue'
 </script>
 
 <template>
-  <section class="hero">
+  <section>
     <h1 class="hero-title">Shade4827</h1>
     <div class="hero-inner">
       <img class="avatar" src="@/assets/icon.png" alt="Shade4827 Icon" />
@@ -36,9 +36,6 @@ import SocialLink from './SocialLink.vue'
 </template>
 
 <style scoped>
-.hero {
-  padding: 1rem;
-}
 .hero-inner {
   display: flex;
   align-items: center;
