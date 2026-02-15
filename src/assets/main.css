@@ -18,3 +18,7 @@ a {
   text-decoration-color: currentColor;
   text-underline-offset: 2px;
 }
+
+section {
+  padding: 1rem;
+}
