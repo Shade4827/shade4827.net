@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import HeroSection from './components/HeroSection.vue'
+</script>
+
 <template>
   <main>
-    <div>hoge</div>
+    <HeroSection />
   </main>
 </template>
 
