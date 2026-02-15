@@ -14,16 +14,16 @@ import SocialLink from './SocialLink.vue'
         src="@/assets/icon.png"
         alt="Shade4827 Icon"
       />
-      <div class="min-w-0 flex flex-col bg-[#696969] p-4 rounded h-48 md:h-64 text-white">
+      <div class="min-w-0 flex flex-col bg-[#696969] p-4 md:p-6 rounded text-white">
         <p class="mb-4 font-semibold text-2xl text-white">かげろん</p>
-        <p class="mb-2 flex items-center text-white">
-          <span class="inline-flex mr-2"><BriefcaseIcon /></span>Webエンジニア
+        <p class="mb-2 text-white">
+          <span class="inline-flex mr-2 flex-shrink-0"><BriefcaseIcon /></span>Webエンジニア
         </p>
-        <p class="mb-2 flex items-center text-white">
-          <span class="inline-flex mr-2"><MapMarkerIcon /></span>日本, 北海道
+        <p class="mb-2 text-white">
+          <span class="inline-flex mr-2 flex-shrink-0"><MapMarkerIcon /></span>日本, 北海道
         </p>
-        <p class="mb-2 flex items-center text-white">
-          <span class="inline-flex mr-2"><HeartIcon /></span>カードゲーム(<a
+        <p class="mb-2 text-white">
+          <span class="inline-flex mr-2 flex-shrink-0"><HeartIcon /></span>カードゲーム(<a
             href="https://www.yugioh-card.com/japan/"
             target="_blank"
             rel="noopener noreferrer"
