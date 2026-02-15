@@ -23,6 +23,12 @@
         </ul>
       </div>
     </div>
+    <p class="site-description">
+      このサイトは
+      <a href="https://ja.vuejs.org/" target="_blank" rel="noopener noreferrer"> Vue.js </a>
+      を利用して作成しています
+      <a href="https://github.com/Shade4827/portfolio" rel="noopener noreferrer">> GitHub</a>
+    </p>
   </section>
 </template>
 
@@ -41,6 +47,10 @@
 .skill-columns > div {
   flex: 1 1 240px;
   min-width: 200px;
+}
+.site-description {
+  margin-top: 1rem;
+  font-size: 0.875rem;
 }
 p {
   margin: 0 0 0.5rem 0;
