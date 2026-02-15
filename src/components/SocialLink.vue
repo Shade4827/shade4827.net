@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GitHubIcon from './icons/GitHubIcon.vue'
+import GitHubIcon from './icons/GithubIcon.vue'
 import XIcon from './icons/XIcon.vue'
 </script>
 
