@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import HeroSection from './components/HeroSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
   <main>
     <HeroSection />
+    <FooterSection />
   </main>
 </template>
 
