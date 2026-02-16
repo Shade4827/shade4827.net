@@ -44,14 +44,7 @@ const { slideList } = useSlide()
 
     <h3 class="font-semibold mb-2">登壇</h3>
     <div class="mb-4">
-      <SlideCard
-        v-for="slide in slideList"
-        :key="slide.title"
-        :title="slide.title"
-        :description="slide.description"
-        :link="slide.link"
-        class="mb-4"
-      />
+      <SlideCard v-for="slide in slideList" :key="slide.title" :slide="slide" class="mb-4" />
     </div>
 
     <h3 class="font-semibold mb-2">登壇(資料なし)</h3>
