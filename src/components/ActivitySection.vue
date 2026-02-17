@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import SlideCard from './SlideCard.vue'
-import { useSlide } from '@/composables/useSlide'
-const { slideList } = useSlide()
+import OpenInNewIcon from 'vue-material-design-icons/OpenInNew.vue'
 </script>
 
 <template>
@@ -10,31 +8,31 @@ const { slideList } = useSlide()
 
     <h3 class="font-semibold mb-2">スタッフ参加</h3>
     <ul class="list-disc list-inside pl-0 mb-4">
-      <li>
+      <li class="my-1">
         <a href="https://event.ospn.jp/osc2024-do/" target="_blank" rel="noopener noreferrer">
           Open Source Conference Hokkaido 2024
         </a>
         当日スタッフ
       </li>
-      <li>
+      <li class="my-1">
         <a href="https://techramenconf.net/2024/" target="_blank" rel="noopener noreferrer"
           >TechRAMEN 2024 Conference
         </a>
         当日スタッフ
       </li>
-      <li>
+      <li class="my-1">
         <a href="https://kinoko-conf.dev/2025/" target="_blank" rel="noopener noreferrer">
           エンジニアがこの先生きのこるためのカンファレンス2025
         </a>
         当日スタッフ
       </li>
-      <li>
+      <li class="my-1">
         <a href="https://techramenconf.net/2025/" target="_blank" rel="noopener noreferrer">
           TechRAMEN 2025 Conference
         </a>
         コアスタッフ
       </li>
-      <li>
+      <li class="my-1">
         <a href="https://www.frontend-conf.jp/" target="_blank" rel="noopener noreferrer">
           フロントエンドカンファレンス北海道 2025
         </a>
@@ -43,9 +41,14 @@ const { slideList } = useSlide()
     </ul>
 
     <h3 class="font-semibold mb-2">登壇</h3>
-    <div class="mb-4">
-      <SlideCard v-for="slide in slideList" :key="slide.title" :slide="slide" class="mb-4" />
-    </div>
+    <p class="mb-4">
+      docswell上に資料をアップロードしています。
+      <a href="https://www.docswell.com/user/shade4827" target="_blank" rel="noopener noreferrer">
+        <OpenInNewIcon class="inline-block w-4 h-4 ml-1" />
+      </a>
+      <br />
+      これまでのコミュニティ活動の振り返りや仕事の進め方に関する内容が多いです。
+    </p>
 
     <h3 class="font-semibold mb-2">登壇(資料なし)</h3>
     <ul class="list-disc list-inside pl-0">
