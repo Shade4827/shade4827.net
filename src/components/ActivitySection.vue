@@ -50,10 +50,15 @@ const { slideList } = useSlide()
     <h3 class="font-semibold mb-2">登壇(資料なし)</h3>
     <ul class="list-disc list-inside pl-0">
       <li>
-        <a href="https://www.city.sapporo.jp/somu/tokyo/event/20260128_event.html"
-          >札幌市ビジネスセッション＆交流会「エンジニアはなぜ札幌を選ぶのか
-          ～人と企業が動く理由～」</a
+        <a
+          href="https://www.city.sapporo.jp/somu/tokyo/event/20260128_event.html"
+          target="_blank"
+          rel="noopener noreferrer"
         >
+          札幌市ビジネスセッション＆交流会「エンジニアはなぜ札幌を選ぶのか ～人と企業が動く理由～」
+        </a>
+        <br />
+        地方から札幌に移住したエンジニアとして札幌の魅力と技術コミュニティについてお話ししました。
       </li>
     </ul>
   </section>
