@@ -54,6 +54,17 @@ import OpenInNewIcon from 'vue-material-design-icons/OpenInNew.vue'
     <ul class="list-disc list-inside pl-0">
       <li>
         <a
+          href="https://fortee.jp/techramen-25-conf/proposal/4955be4a-6b41-4837-9f6c-d0ae30a500cd"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          TechRAMEN 2025 Conference パネルディスカッション企画 ゆるいエンジニア相談室 ～あずましいエンジニア人生のおくりかた
+        </a>
+        <br />
+        北海道に残り続けるエンジニア人生の送り方やキャリアについて相談する形式でパネルディスカッションをしました。
+      </li>
+      <li>
+        <a
           href="https://www.city.sapporo.jp/somu/tokyo/event/20260128_event.html"
           target="_blank"
           rel="noopener noreferrer"
