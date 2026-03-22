@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import OpenInNewIcon from 'vue-material-design-icons/OpenInNew.vue'
-</script>
-
 <template>
   <section>
     <h2 class="text-xl font-bold mb-4">Activities</h2>
@@ -42,12 +38,14 @@ import OpenInNewIcon from 'vue-material-design-icons/OpenInNew.vue'
 
     <h3 class="font-semibold mb-2">登壇</h3>
     <p class="mb-4">
-      docswell上に資料をアップロードしています。
       <a href="https://www.docswell.com/user/shade4827" target="_blank" rel="noopener noreferrer">
-        <OpenInNewIcon class="inline-block w-4 h-4 ml-1" />
+        docswell
       </a>
+      上に資料をアップロードしています。
       <br />
       これまでのコミュニティ活動の振り返りや仕事の進め方に関する内容が多いです。
+      <br />
+      Slidevで作成した資料は <a href="https://www.slides.shade4827.net" target="_blank" rel="noopener noreferrer">こちら</a> にまとめています。
     </p>
 
     <h3 class="font-semibold mb-2">登壇(資料なし)</h3>
@@ -62,17 +60,6 @@ import OpenInNewIcon from 'vue-material-design-icons/OpenInNew.vue'
         </a>
         <br />
         北海道に残り続けるエンジニア人生の送り方やキャリアについて相談する形式でパネルディスカッションをしました。
-      </li>
-      <li>
-        <a
-          href="https://www.city.sapporo.jp/somu/tokyo/event/20260128_event.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          札幌市ビジネスセッション＆交流会「エンジニアはなぜ札幌を選ぶのか ～人と企業が動く理由～」
-        </a>
-        <br />
-        地方から札幌に移住したエンジニアとして札幌の魅力と技術コミュニティについてお話ししました。
       </li>
     </ul>
   </section>
