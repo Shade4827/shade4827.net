@@ -23,6 +23,12 @@
         当日スタッフ
       </li>
       <li class="my-1">
+        <a href="https://event.ospn.jp/osc2026-do/" target="_blank" rel="noopener noreferrer">
+          Open Source Conference Hokkaido 2026
+        </a>
+        当日スタッフ
+      </li>
+      <li class="my-1">
         <a href="https://techramenconf.net/2025/" target="_blank" rel="noopener noreferrer">
           TechRAMEN 2025 Conference
         </a>
@@ -31,6 +37,12 @@
       <li class="my-1">
         <a href="https://www.frontend-conf.jp/" target="_blank" rel="noopener noreferrer">
           フロントエンドカンファレンス北海道 2025
+        </a>
+        コアスタッフ
+      </li>
+      <li class="my-1">
+        <a href="https://frontend-php-con.hokkaido.jp/" target="_blank" rel="noopener noreferrer">
+          フロントエンド・PHPカンファレンス北海道 2026
         </a>
         コアスタッフ
       </li>
