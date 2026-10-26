@@ -30,9 +30,11 @@
     "vite": "catalog:",
     "vite-plugin-vue-devtools": "^8.0.5",
     "vite-plus": "catalog:",
-    "vue-tsc": "^3.2.4"
+    "vue-tsc": "^3.2.4",
+    "wrangler": "^4.152.0"
   },
   "engines": {
     "node": ">=24.22.1"
-  }
+  },
+  "packageManager": "pnpm@10.26.2"
 }

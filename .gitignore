@@ -37,3 +37,9 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+# Cloudflare Workers
+.wrangler
+.dev.vars
+
+.pnpm-store
