@@ -7,11 +7,17 @@ import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
+  <div class="ambient" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+    <span class="blob blob-c"></span>
+    <span class="blob blob-d"></span>
+  </div>
+  <HeroSection />
   <main>
-    <HeroSection />
     <SkillSection />
     <ProductSection />
     <ActivitySection />
-    <FooterSection />
   </main>
+  <FooterSection />
 </template>

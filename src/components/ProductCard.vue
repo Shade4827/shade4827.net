@@ -7,27 +7,29 @@ const { product } = defineProps<{ product: Product }>()
 </script>
 
 <template>
-  <div class="flex items-center mb-2">
-    <h3 class="text-lg font-semibold m-0 mr-2">{{ product.name }}</h3>
-    <a
-      class="inline-flex items-center justify-center p-2 text-white hover:bg-[#808080] transition-colors"
-      :href="product.repositoryUrl"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <GithubIcon size="20" />
-    </a>
-    <a
-      v-if="product.siteUrl"
-      class="inline-flex items-center justify-center p-2 text-white hover:bg-[#808080] transition-colors"
-      :href="product.siteUrl"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <OpenInNewIcon />
-    </a>
-  </div>
-  <p class="mb-4 text-white">
-    {{ product.description }}
-  </p>
+  <article class="product-card">
+    <h3 class="product-name">{{ product.name }}</h3>
+    <p class="product-desc">{{ product.description }}</p>
+    <div class="product-links">
+      <a
+        class="product-link"
+        :href="product.repositoryUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <GithubIcon :size="18" fill="currentColor" />
+        <span>GitHub</span>
+      </a>
+      <a
+        v-if="product.siteUrl"
+        class="product-link"
+        :href="product.siteUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <OpenInNewIcon :size="18" />
+        <span>サイト</span>
+      </a>
+    </div>
+  </article>
 </template>
