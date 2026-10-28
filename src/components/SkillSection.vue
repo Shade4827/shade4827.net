@@ -1,49 +1,39 @@
+<script setup lang="ts">
+import SectionHeading from './SectionHeading.vue'
+import { useReveal } from '@/composables/useReveal'
+
+const { el, visible } = useReveal()
+
+const workSkills = ['JavaScript / TypeScript', 'Vue.js', 'Nuxt', 'Ruby on Rails', 'CakePHP (2.x)']
+const personalSkills = ['C', 'C++', 'Python', 'Unity', 'Svelte']
+</script>
+
 <template>
-  <section>
-    <h2 class="text-xl font-bold mb-4">Skills</h2>
-
-    <div class="flex flex-col md:flex-row gap-4 md:gap-6">
-      <div class="flex-1 min-w-[200px] basis-[20px]">
-        <p class="mb-2 font-semibold text-white">業務で利用</p>
-        <ul class="list-disc list-inside pl-0">
-          <li class="my-1 text-white">JavaScript / TypeScript</li>
-          <li class="my-1 text-white">Vue.js</li>
-          <li class="my-1 text-white">Nuxt</li>
-          <li class="my-1 text-white">Ruby on Rails</li>
-          <li class="my-1 text-white">CakePHP (2.x)</li>
-        </ul>
+  <section ref="el" class="reveal block" :class="{ 'is-visible': visible }">
+    <div class="shell">
+      <SectionHeading en="Skills" ja="技術" />
+      <div class="skill-groups">
+        <div>
+          <h3 class="group-label work">業務で利用</h3>
+          <ul class="chips">
+            <li v-for="skill in workSkills" :key="skill" class="chip chip-work">{{ skill }}</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="group-label personal">個人で利用</h3>
+          <ul class="chips">
+            <li v-for="skill in personalSkills" :key="skill" class="chip chip-personal">
+              {{ skill }}
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="flex-1 min-w-[200px] basis-[20px]">
-        <p class="mb-2 font-semibold text-white">個人で利用</p>
-        <ul class="list-disc list-inside pl-0">
-          <li class="my-1 text-white">C</li>
-          <li class="my-1 text-white">C++</li>
-          <li class="my-1 text-white">Python</li>
-          <li class="my-1 text-white">Unity</li>
-          <li class="my-1 text-white">Svelte</li>
-        </ul>
-      </div>
+      <p class="site-note">
+        このサイトは
+        <a href="https://ja.vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js</a>
+        を利用して作成しています
+        <a href="https://github.com/Shade4827/portfolio" rel="noopener noreferrer">GitHub</a>
+      </p>
     </div>
-
-    <p class="mt-4 text-sm text-white">
-      このサイトは
-      <a
-        href="https://ja.vuejs.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="underline dotted"
-      >
-        Vue.js
-      </a>
-      を利用して作成しています
-      <a
-        href="https://github.com/Shade4827/portfolio"
-        rel="noopener noreferrer"
-        class="underline dotted"
-      >
-        GitHub</a
-      >
-    </p>
   </section>
 </template>
