@@ -14,27 +14,27 @@
     "prepare": "vp config"
   },
   "dependencies": {
-    "vue": "^3.5.27",
-    "vue-material-design-icons": "^5.3.1"
+    "vue": "^3.5.45",
+    "vue-material-design-icons": "^5.4.0"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "@tsconfig/node24": "^24.0.4",
-    "@types/node": "^24.10.9",
-    "@vitejs/plugin-vue": "^6.0.3",
-    "@vue/tsconfig": "^0.8.1",
-    "jiti": "^2.6.1",
-    "npm-run-all2": "^8.0.4",
-    "tailwindcss": "^4.1.18",
-    "typescript": "~5.9.3",
+    "@tailwindcss/vite": "^4.3.5",
+    "@tsconfig/node24": "^24.0.6",
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "@vue/tsconfig": "^0.9.1",
+    "jiti": "^2.7.0",
+    "npm-run-all2": "^9.0.4",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~6.0.3",
     "vite": "catalog:",
-    "vite-plugin-vue-devtools": "^8.0.5",
+    "vite-plugin-vue-devtools": "^8.2.1",
     "vite-plus": "catalog:",
-    "vue-tsc": "^3.2.4",
-    "wrangler": "^4.152.0"
+    "vue-tsc": "^3.3.14",
+    "wrangler": "^4.164.0"
   },
   "engines": {
     "node": ">=24.22.1"
   },
-  "packageManager": "pnpm@10.26.2"
+  "packageManager": "pnpm@10.34.9"
 }

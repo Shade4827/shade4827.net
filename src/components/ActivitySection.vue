@@ -57,7 +57,11 @@
       <br />
       これまでのコミュニティ活動の振り返りや仕事の進め方に関する内容が多いです。
       <br />
-      Slidevで作成した資料は <a href="https://www.slides.shade4827.net" target="_blank" rel="noopener noreferrer">こちら</a> にまとめています。
+      Slidevで作成した資料は
+      <a href="https://www.slides.shade4827.net" target="_blank" rel="noopener noreferrer"
+        >こちら</a
+      >
+      にまとめています。
     </p>
 
     <h3 class="font-semibold mb-2">登壇(資料なし)</h3>
