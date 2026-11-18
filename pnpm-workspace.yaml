@@ -1,13 +1,23 @@
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@1.4.0
-  vite-plus: 1.4.0
+  vite: npm:@voidzero-dev/vite-plus-core@8.3.8000
+  vite-plus: 1.7.0
 onlyBuiltDependencies:
   - esbuild
   - workerd
 overrides:
   vite@*: 'catalog:'
+  # Stay on Babel 7. The 7.29.0 copy pulled in by Vue DevTools is missing
+  # the 7.29.6 sourceMappingURL fix, and its browserslist 4.28.1 is below
+  # the 4.28.7 fixes. Babel 8 is a separate major and is not forced here.
+  '@babel/core': ^7.29.13
+  '@babel/helper-compilation-targets': ^7.29.13
+  browserslist: ^4.29.6
+  baseline-browser-mapping: ^2.11.38
+# Transitive Vue DevTools packages still declare a Vite 7 peer range.
+# They run against the Vite+ core alias (Vite 8.3.8). pnpm <12.17 silences
+# that with allowedVersions; see vite-plus migrate-rules.
 peerDependencyRules:
-  allowAny:
-    - vite
   allowedVersions:
-    vite: '*'
+    vite-plugin-inspect>vite: '*'
+    vite-dev-rpc>vite: '*'
+    vite-hot-client>vite: '*'
